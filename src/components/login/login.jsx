@@ -1,6 +1,7 @@
 import React from 'react';
 import Footer from '../footer/footer';
 import Header from '../header/header';
+import styles from './login.module.css';
 
 
 const Login = ({authService}) => {
@@ -9,17 +10,17 @@ const Login = ({authService}) => {
   }
 
   return(
-    <div className="login">
-      <Header />
-      <section>
-        <h1>Login</h1>
-        <ul>
-          <li><button onClick={onLogin}>Google</button></li>
-          <li><button onClick={onLogin}>Github</button></li>
+    <form className={styles.loginForm}>
+      <Header className={styles.Header}/>
+      <section className = {styles.section}>
+        <h1 className = {styles.Login}>Login</h1>
+        <ul className = {styles.ul}>
+          <li><button type='button' className = {styles.site}onClick={onLogin}>Google</button></li>
+          <li><button type='button' className = {styles.site}onClick={onLogin}>Github</button></li>
         </ul>
       </section>
-      <Footer />
-    </div>
+      <Footer className={styles.Footer}/>
+    </form>
   )
 };
 

@@ -1,0 +1,60 @@
+/* color */
+@value makerLightPink, makerWhite, makerGreen, makerPink from '../../common/colors.css';
+
+/* font size */
+@value fontMediumSize, fontSmallSize from '../../common/size.css';
+
+/* margine size */
+@value margineMediumSize, margineSmallSize from '../../common/size.css';
+
+* {
+  align-items: center;
+  text-align: center;
+}
+
+.Login {
+  margin: margineMediumSize;
+  font-size: fontMediumSize;
+}
+
+.loginForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 30%;
+  height: 40%;
+}
+
+.section {
+  background-color: makerWhite;
+  display: flex;
+  flex-direction: column;
+  height: 50%;
+  width: 100%;
+}
+
+.ul {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+}
+
+li {
+  width: 100%;
+  display: flex;
+  margin: 5px;
+}
+.site {
+  border-radius: 30px;
+  width: 100%;
+  height: 100%;
+  border: 5px solid makerGreen;
+  margin: margineSmallSize;
+  font-size: fontSmallSize;
+  cursor: pointer;
+  transition: background-color, 500ms;
+}
+.site:hover {
+  background-color: makerPink;
+}

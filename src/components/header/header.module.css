@@ -1,0 +1,33 @@
+/* color */
+@value makerGreen, makerWhite from '../../common/colors.css';
+
+/* fontsize */
+@value fontMediumSize, margineSmallSize from '../../common/size.css';
+
+.header {
+  width: 100%;
+  background-color: makerGreen;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: makerWhite;
+  position: relative;
+}
+
+.logo {
+  padding-top: margineSmallSize;
+  width: 3em;
+}
+
+.Business {
+  margin: margineSmallSize;
+}
+
+.logout {
+  position: absolute;
+  right: 2em;
+  top: 1em;
+  border-radius: 20px;
+}

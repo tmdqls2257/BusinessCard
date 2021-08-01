@@ -1,0 +1,15 @@
+/* Size */
+@value fontSmallSize from '../../common/size.css';
+
+/* Color */
+@value makerGreen, makerWhite from '../../common/colors.css';
+
+.Footer {
+  background-color: makerGreen;
+  width: 100%;
+  height: 10%;
+  display: flex;
+  justify-content: center;
+  color: makerWhite;
+  font-size: fontSmallSize;
+}

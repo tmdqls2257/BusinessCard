@@ -1,2 +1,12 @@
 /* PossCSS로  root를 설정해주기*/
 @value mediaQuery: 62rem;
+
+/* font size */
+@value fontSmallSize: 16px;
+@value fontMediumSize: 32px;
+@value fontLargeSize: 64px;
+
+/* margin size */
+@value margineSmallSize: 16px;
+@value margineMediumSize: 32px;
+@value margineLargeSize: 64px;

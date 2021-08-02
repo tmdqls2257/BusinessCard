@@ -1,0 +1,13 @@
+@value makerGreen, makerWhite from '../../common/colors.css';
+
+.section {
+  background-color: makerWhite;
+  height: 80%;
+}
+
+.main {
+  background-color: makerGreen;
+  flex-direction: column;
+  width: 80%;
+  height: 100%;
+}

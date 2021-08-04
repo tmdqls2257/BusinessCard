@@ -1,8 +1,8 @@
 /* color */
 @value makerGreen, makerWhite from '../../common/colors.css';
 
-/* fontsize */
-@value fontMediumSize, margineSmallSize from '../../common/size.css';
+/* margine-size */
+@value margineSmallSize from '../../common/size.css';
 
 .header {
   width: 100%;
@@ -14,7 +14,6 @@
   text-align: center;
   color: makerWhite;
   position: relative;
-  font-size: fontMediumSize;
 }
 
 .logo {
@@ -31,4 +30,9 @@
   right: 2em;
   top: 1em;
   border-radius: 20px;
+}
+.button {
+  position: absolute;
+  top: margineSmallSize;
+  right: margineSmallSize;
 }

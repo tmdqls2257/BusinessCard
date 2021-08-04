@@ -1,6 +1,3 @@
-/* Size */
-@value fontSmallSize from '../../common/size.css';
-
 /* Color */
 @value makerGreen, makerWhite from '../../common/colors.css';
 
@@ -11,5 +8,4 @@
   display: flex;
   justify-content: center;
   color: makerWhite;
-  font-size: fontSmallSize;
 }

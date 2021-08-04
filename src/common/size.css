@@ -10,3 +10,8 @@
 @value margineSmallSize: 16px;
 @value margineMediumSize: 32px;
 @value margineLargeSize: 64px;
+
+/* font wieght */
+@value fontWeightSmallSize: 600;
+@value fontWeightMediumSize: 800;
+@value fontWeightLargeSize: 1000;

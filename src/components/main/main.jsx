@@ -20,7 +20,14 @@ const Main = ({authService}) => {
   return (
     <div className={styles.main}>
       <Header onlogout={onlogout}/>
-      <section className={styles.section}>Hello World</section>
+      <div className={styles.box}>
+      <section className={styles.cardMaker}>
+        <h1 className={styles.header}>Card Maker</h1>
+      </section>
+      <section className={styles.cardPreview}>
+        <h1 className={styles.header}>Card Preview</h1>
+      </section>
+      </div>
       <Footer />
     </div>
   );

@@ -1,0 +1,19 @@
+table {
+  width: 100%;
+}
+thead {
+  width: 100%;
+}
+
+th {
+  display: table-cell;
+  vertical-align: inherit;
+  font-weight: bold;
+  text-align: center;
+  border: 1px solid black;
+}
+
+td,
+tr {
+  border: 1px solid #333;
+}

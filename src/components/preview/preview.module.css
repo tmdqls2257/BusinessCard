@@ -1,0 +1,8 @@
+@value makerGreen, makerWhite from '../../common/colors.css';
+
+.cardPreview {
+  width: 50%;
+}
+.header {
+  color: makerGreen;
+}

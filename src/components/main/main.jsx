@@ -11,12 +11,13 @@ const Main = ({authService}) => {
     {
       id: 'tmdqls1',
       name: 'seung bin',
-      theme: 'light',
+      theme: 'dark',
       title: 'Frontend engineer',
       email: 'tmdqls2257@gamil.com',
       message: 'hi',
+      company: 'samsung',
       fileName: 'universe',
-      fileURL:'1',
+      fileURL:'',
     },{
       id: 'tmdqls2',
       name: 'seung bin',
@@ -24,17 +25,19 @@ const Main = ({authService}) => {
       title: 'Frontend engineer',
       email: 'tmdqls2257@gamil.com',
       message: 'hi',
+      company: 'apple',
       fileName: 'universe',
-      fileURL:'1',
+      fileURL:'',
     },{
       id: 'tmdqls3',
       name: 'seung bin',
-      theme: 'light',
+      theme: 'colorful',
       title: 'Frontend engineer',
       email: 'tmdqls2257@gamil.com',
       message: 'hi',
+      company: 'google',
       fileName: 'universe',
-      fileURL:'1',
+      fileURL:'',
     },
   ]);
   const history = useHistory();

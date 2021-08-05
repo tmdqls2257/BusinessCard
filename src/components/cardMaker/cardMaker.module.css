@@ -2,6 +2,7 @@
 
 .cardMaker {
   flex-basis: 50%;
+  overflow: scroll;
 }
 
 .title {

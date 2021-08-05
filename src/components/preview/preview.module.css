@@ -2,7 +2,12 @@
 
 .cardPreview {
   flex-basis: 50%;
+  width: 80%;
+  overflow: scroll;
 }
 .header {
   color: makerGreen;
+}
+.cards {
+  width: 100%;
 }

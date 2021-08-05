@@ -148,3 +148,6 @@ span {
 button {
   font-weight: fontWeightMediumSize;
 }
+p {
+  display: flex;
+}

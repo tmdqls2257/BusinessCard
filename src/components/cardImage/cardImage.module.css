@@ -1,11 +1,14 @@
 @value makerBlack, makerWhite, makerWheat, makerColorful, makerShadow from '../../common/colors.css';
 .card {
   align-items: center;
+  display: flex;
   background-color: aqua;
   border-radius: 1em;
   padding: 0.2em;
   box-shadow: 6px 6px 8px 6px makerShadow;
+  width: 100%;
   max-width: 30rem;
+  margin: 16px;
 }
 
 .avatar {
@@ -26,7 +29,7 @@
 .email,
 .message {
   display: block;
-
+  text-align: left;
   margin-bottom: 0.5rem;
 }
 

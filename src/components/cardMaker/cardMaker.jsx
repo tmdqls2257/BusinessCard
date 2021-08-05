@@ -9,9 +9,9 @@ const CardMaker = ({cards}) => {
       <h1 className={styles.title}>Card Maker</h1>
       {
         cards.map(card => 
-      <Card  card={card}/>
+      <Card card={card}/>
       )
       }
-      </section>
+    </section>
   )}
 export default CardMaker;

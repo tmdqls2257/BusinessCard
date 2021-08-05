@@ -1,13 +1,23 @@
 @value makerGreen from '../../common/colors.css';
 
+@value margineSmallSize from '../../common/size.css';
+
 .cardPreview {
   flex-basis: 50%;
   width: 80%;
   overflow: scroll;
+  scroll-snap-type: y mandatory;
+  border-left: 1px solid;
 }
 .header {
   color: makerGreen;
+  margin: margineSmallSize;
 }
 .cards {
   width: 100%;
+  height: 100%;
+  padding: 0.5em 2em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }

@@ -1,10 +1,13 @@
 /* Color */
 @value makerGreen, makerWhite from '../../common/colors.css';
 
+@value margineSmallSize from '../../common/size.css';
+
 .Footer {
   background-color: makerGreen;
   width: 100%;
   display: flex;
   justify-content: center;
   color: makerWhite;
+  padding: margineSmallSize;
 }
